@@ -5,28 +5,42 @@
 // }
 
 // document.querySelector(".time").innerHTML = text;
-setInterval(() => {
-  let number = "";
-  let i = "";
-  document.querySelector("p.firstnum").innerHTML = number;
+// fourthnumber = 0;
 
-  while (i < 10) {
-    i = 0;
-    console.log(i);
-  }
-  if (number < 9) {
-    i++;
+// function countToTen() {
+//   for (var i = 1; i <= 10; i++) {
+//     console.log(i);
+//   }
+// }
+
+// fourth = ;
+
+let doc = document.querySelector("p.fourthnum");
+setInterval(() => {
+  for (let i = 1; i <= 10; i++) {
+    doc = i;
   }
 }, 1000);
-
-// number += i;
 
 // let second = document.querySelector("p.secondnum");
 // secondnumber = 0;
 // setInterval(() => {
-//   secondnumber++;
-//   second.innerHTML = secondnumber;
-// }, 1000);
+//   if (secondnumber == 10) {
+//     secondnumber = 0;
+//   } else {
+//     secondnumber++}, 1000},
+// (second.innerHTML = secondnumber));
+
+let second = document.querySelector("p.secondnum");
+secondnumber = 0;
+setInterval(() => {
+  secondnumber++;
+  if (secondnumber == 10) {
+    secondnumber = 0;
+  }
+  second.innerHTML = secondnumber;
+}, 1000);
+
 // let third = document.querySelector("p.thirdnum");
 // thirdnumber = 0;
 // setInterval(() => {
