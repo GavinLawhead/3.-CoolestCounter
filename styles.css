@@ -3,10 +3,23 @@
     /* width: 100px; */
     text-align: center;
 }
+.sixthnum{
+    font-size: 80px;
+    padding: 0px
+}
+.fifthnum{
+    font-size: 80px;
+    padding: 0px;
+}
 p{
     display: inline-block;
     text-align: center;
     font-family: 'Franklin Gothic Medium';
-    font-size: 25px;
+    font-size: 120px;
+    margin-top: 18%;    
+    padding: 15px;
 
+}
+p::after{
+    background-color: aqua;
 }
