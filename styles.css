@@ -1,7 +1,7 @@
 .container{
         text-align: center;
-        outline: 1px solid black;
-        
+        outline: 4px solid black;
+        width: 50%;
 }
 .sixthnum{
     font-size: 80px;
@@ -13,6 +13,8 @@
 }
 body{
     background-color: rgb(25, 144, 255);
+    padding-left: 34%;
+    padding-top: 10%;
 }
 p{
     
