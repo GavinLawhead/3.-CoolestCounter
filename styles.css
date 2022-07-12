@@ -1,7 +1,7 @@
 .container{
-    /* display: inline-block; */
-    /* width: 100px; */
-    text-align: center;
+        text-align: center;
+        outline: 1px solid black;
+        
 }
 .sixthnum{
     font-size: 80px;
@@ -11,15 +11,14 @@
     font-size: 80px;
     padding: 0px;
 }
+body{
+    background-color: rgb(25, 144, 255);
+}
 p{
+    
     display: inline-block;
-    text-align: center;
     font-family: 'Franklin Gothic Medium';
     font-size: 120px;
-    margin-top: 18%;    
-    padding: 15px;
-
-}
-p::after{
-    background-color: aqua;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: white;
 }

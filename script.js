@@ -118,7 +118,7 @@ function secondcolors() {
     second.style.color = randColor();
   } else if (secondnumber == 8) {
     second.style.color = randColor();
-  } else if (ssecondnumber == 9) {
+  } else if (secondnumber == 9) {
     second.style.color = randColor();
   }
 }
